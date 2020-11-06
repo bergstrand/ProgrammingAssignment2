@@ -22,7 +22,7 @@ makeCacheMatrix <- function( x = matrix() ) {
              getinverse = getinverse)
 }
 ## Argument x is needed in order to find the inverse matrix.
-## Return a matrix that is the inverse of 'x'
+## Return a matrix that is the inverse of 'x'.
 cacheSolve <- function(x, ...) {
         mtrx <- x$getinverse()
         ## Check if mtrx is in cache, i.e. is not null. If so, return it.
